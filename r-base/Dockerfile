@@ -1,4 +1,4 @@
-FROM gcre/base:latest
+FROM quay.io/gcre/base:latest
 MAINTAINER "Dmitri Bichko" dbichko@gmail.com
 
 ENV DEBIAN_FRONTEND noninteractive

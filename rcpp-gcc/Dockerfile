@@ -1,4 +1,4 @@
-FROM gcre/r-base:latest
+FROM quay.io/gcre/r-base:latest
 MAINTAINER "Dmitri Bichko" dbichko@gmail.com
 
 RUN apt-get update -y \
