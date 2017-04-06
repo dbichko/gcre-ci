@@ -3,8 +3,9 @@ MAINTAINER "Dmitri Bichko" dbichko@gmail.com
 
 RUN apt-get update -y \
  && apt-get install -y --no-install-suggests --no-install-recommends \
-     r-cran-rcpp r-cran-matrix r-cran-plyr r-cran-dplyr \
-     gcc libtool \
+    r-cran-curl r-cran-openssl r-cran-httr r-cran-memoise r-cran-digest r-cran-jsonlite r-cran-withr \
+    r-cran-rcpp r-cran-matrix r-cran-plyr r-cran-dplyr \
+    gcc libtool \
  && rm -rf /var/lib/apt/lists/*
 
 COPY Makevars /home/docker/.R/Makevars
