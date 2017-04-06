@@ -1,0 +1,10 @@
+CC=gcc
+
+CXX1X=g++
+CXX1XFLAGS=-std=c++11 -O3 -march=native -mno-avx2 -mno-avx
+CXX=$(CXX1X)
+CXXFLAGS=$(CXX1XFLAGS)
+
+MAKEFLAGS=-j4
+
+#LDFLAGS = -Wl,-O3,--sort-common,--as-needed,-z,relro
