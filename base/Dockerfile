@@ -7,9 +7,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update -y && apt-get dist-upgrade -y \
   && apt-get install -y --no-install-suggests --no-install-recommends \
-     apt-utils gzip \
-  && apt-get install -y --no-install-suggests --no-install-recommends \
-     locales nano less time file bzip2 zip unzip pigz pv wget curl \
+     apt-utils locales nano less time file gzip bzip2 zip unzip pigz pv wget curl \
      libc-dev libgcc-6-dev make \
   && rm -rf /var/lib/apt/lists/*
 
