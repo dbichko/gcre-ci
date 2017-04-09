@@ -1,11 +1,9 @@
 FROM dbichko/r-base:latest
-MAINTAINER "Dmitri Bichko" dbichko@gmail.com
 
 # some R packages ignore CC and hard-code gcc
 
 RUN apt-get update -y \
  && apt-get install -y --no-install-suggests --no-install-recommends \
-    r-cran-curl r-cran-openssl r-cran-httr r-cran-memoise r-cran-digest r-cran-jsonlite r-cran-withr \
     r-cran-rcpp r-cran-matrix r-cran-plyr r-cran-dplyr \
     clang \
  && rm -rf /var/lib/apt/lists/* \

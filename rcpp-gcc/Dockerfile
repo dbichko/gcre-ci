@@ -1,5 +1,4 @@
 FROM dbichko/r-base:latest
-MAINTAINER "Dmitri Bichko" dbichko@gmail.com
 
 RUN apt-get update -y \
  && apt-get install -y --no-install-suggests --no-install-recommends \
