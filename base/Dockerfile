@@ -1,5 +1,7 @@
 FROM debian:unstable-slim
+
 LABEL maintainer "dbichko@gmail.com"
+LABEL description "minimal base image with common utilities"
 
 ENV DEBIAN_FRONTEND noninteractive
 

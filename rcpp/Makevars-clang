@@ -1,0 +1,4 @@
+CC=clang
+CXX1X=clang++
+CXX=$(CXX1X)
+MAKEFLAGS=-j4
