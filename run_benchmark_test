@@ -25,26 +25,24 @@ files=$(ls gcre-ci/data/$input/*_100_*.gz)
 
     for perm in 10; do
 
-      resfile="${arch}_${branch}_method${m}_${input}_${perm}.run"
-      echo "  file: $resfile"
-
     # for nc in 1 2 3 $(seq 4 4 4); do
       for nc in 2 4; do
         for f in $files; do
-        # params: file threads iterations path_length top_k num_case method
-        size=$(echo $f | sed -e 's/_/\n/g' | egrep -m1 '^[0-9]+$')
-        echo "STARTING: $f" >> "$folder/$resfile"
-        /usr/bin/time -v Rscript gcre-ci/bench.r "$f" "$nc" "$perm" 3 24 "$size" "$m" 2>&1 >> "$folder/$resfile"
-        echo m"$m" "$input" "$perm" x"$nc" ["$f"] >> $folder/progress
+          resfile="${arch}_${branch}_method${m}_${perm}_${f/.txt.gz//}.run"
+          # params: file threads iterations path_length top_k num_case method
+          size=$(echo $f | sed -e 's/_/\n/g' | egrep -m1 '^[0-9]+$')
+          echo "STARTING: $f" >> "$folder/$resfile"
+          /usr/bin/time -v Rscript gcre-ci/bench.r "$f" "$nc" "$perm" 3 24 "$size" "$m" 2>&1 >> "$folder/$resfile"
+          echo m"$m" "$input" "$perm" x"$nc" ["$f"] >> $folder/progress
+        done
       done
+
     done
 
   done
 
-done
+  for f in $folder/*.run; do
+    (grep -m1 ^TIME\:PID $f; grep '^TIME:[0-9]' $f) | sed -e 's/ /,/g' > ${f/.run/.csv}
+  done
 
-for f in $folder/*.run; do
-  (grep -m1 ^TIME\:PID $f; grep '^TIME:[0-9]' $f) | sed -e 's/ /,/g' > ${f/.run/.csv}
-done
-
-touch $folder/finished
+  touch $folder/finished
