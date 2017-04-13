@@ -14,4 +14,4 @@ ENV GCRE_ARCH native
 ENV GCRE_BRANCH master-bench
 
 # ENTRYPOINT ["gcre-ci/run_benchmark"]
-CMD ["gcre-ci/run_benchmark"]
+CMD ["gcre-ci/run_benchmark", "full"]

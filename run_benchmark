@@ -1,16 +1,14 @@
 #!/bin/env bash
 set -e
 
-# TODO separate install/setup and running the benchmarks
-
 procs=$(grep -c processor /proc/cpuinfo)
 
-input=${1:-sim}
+bench=${1:-full}
 branch=${2:-master-bench}
 arch=${3:-native}
 
 git --git-dir gcre-ci/.git pull
-chmod a+rx gcre-ci/run_*
+chmod a+rx gcre-ci/run_* gcre-ci/$bench
 
 folder="/results/$(date +%F_%H%M%S)_$BASHPID_${branch}_${arch}"
 mkdir -p $folder
@@ -19,25 +17,7 @@ echo "result folder: $folder"
 cat .R/Makevars.base .R/flags.${arch} > .R/Makevars
 Rscript -e "devtools::install_github('carltonyfakhry/geneticsCRE@${branch}', force=TRUE)" >& $folder/install.log
 
-files=$(ls gcre-ci/data/$input/*.gz)
-
-for m in 1 2; do
-  for perm in 100; do
-
-    for nc in 1 2 3 $(seq 4 4 64); do
-      for f in $files; do
-        # params: file threads iterations path_length top_k num_case method
-        resfile="${arch}_${branch}_method${m}_${perm}_${f/.txt.gz//}.run"
-        size=$(echo $f | sed -e 's/_/\n/g' | egrep -m1 '^[0-9]+$')
-        echo "STARTING: $f" >> "$folder/$resfile"
-        /usr/bin/time -v Rscript gcre-ci/bench.r "$f" "$nc" "$perm" 3 24 "$size" "$m" 2>&1 >> "$folder/$resfile"
-        echo m"$m" "$input" "$perm" x"$nc" ["$f"] >> $folder/progress
-      done
-    done
-
-  done
-
-done
+gcre-ci/$bench "$folder" "$branch" "$arch" >& $folder/benchmark.log
 
 for f in $folder/*.run; do
   (grep -m1 ^TIME\:PID $f; grep '^TIME:[0-9]' $f) | sed -e 's/ /,/g' > ${f/.run/.csv}

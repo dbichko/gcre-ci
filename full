@@ -1,0 +1,24 @@
+#!/bin/env bash
+set -e
+
+folder=$1
+branch=$2
+arch=$3
+
+files=$(ls gcre-ci/data/sim/*.gz)
+
+for m in 1 2; do
+  for perm in 100; do
+    for nc in 1 2 3 $(seq 4 4 48); do
+      for f in $files; do
+        # params: file threads iterations path_length top_k num_case method
+        fn=$(basename $f)
+        resfile="${branch}_${arch}_method${m}_${perm}_${fn/.txt.gz//}.run"
+        size=$(echo $f | sed -e 's/_/\n/g' | egrep -m1 '^[0-9]+$')
+        echo "STARTING: $f" >> "$folder/$resfile"
+        /usr/bin/time -v Rscript gcre-ci/bench.r "$f" "$nc" "$perm" 3 24 "$size" "$m" 2>&1 >> "$folder/$resfile"
+        echo m"$m" "$input" "$perm" x"$nc" ["$f"] >> $folder/progress
+      done
+    done
+  done
+done
