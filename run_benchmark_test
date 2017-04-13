@@ -7,17 +7,15 @@ input=${1:-sim}
 branch=${2:-master-bench}
 arch=${3:-native}
 
-# git --git-dir gcre-ci/.git pull
+git --git-dir gcre-ci/.git pull
 
 folder="/results/$(date +%F_%H%M%S)_$BASHPID_${branch}_${arch}"
 mkdir -p $folder
 echo "result folder: $folder"
 
 cat .R/Makevars.base .R/flags.${arch} > .R/Makevars
-# Rscript -e "devtools::install_github('carltonyfakhry/geneticsCRE@${branch}', force=TRUE)" # >& $folder/install.log
+Rscript -e "devtools::install_github('carltonyfakhry/geneticsCRE@${branch}', force=TRUE)" >& $folder/install.log
 
-
-# exit
 # files=$(ls gcre-ci/data/$input/*.gz)
 files=$(ls gcre-ci/data/$input/*_100_*.gz)
 

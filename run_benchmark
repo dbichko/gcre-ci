@@ -7,31 +7,25 @@ input=${1:-sim}
 branch=${2:-master-bench}
 arch=${3:-native}
 
-# git --git-dir gcre-ci/.git pull
+git --git-dir gcre-ci/.git pull
 
 folder="/results/$(date +%F_%H%M%S)_$BASHPID_${branch}_${arch}"
 mkdir -p $folder
 echo "result folder: $folder"
 
 cat .R/Makevars.base .R/flags.${arch} > .R/Makevars
-# Rscript -e "devtools::install_github('carltonyfakhry/geneticsCRE@${branch}', force=TRUE)" # >& $folder/install.log
+Rscript -e "devtools::install_github('carltonyfakhry/geneticsCRE@${branch}', force=TRUE)" >& $folder/install.log
 
+files=$(ls gcre-ci/data/$input/*.gz)
 
-# exit
-# files=$(ls gcre-ci/data/$input/*.gz)
-files=$(ls gcre-ci/data/$input/*_100_*.gz)
+for m in 1 2; do
+  for perm in 100; do
 
-# for m in 1 2; do
-  for m in 1; do
+    resfile="${arch}_${branch}_method${m}_${input}_${perm}.run"
+    echo "  file: $resfile"
 
-    for perm in 10; do
-
-      resfile="${arch}_${branch}_method${m}_${input}_${perm}.run"
-      echo "  file: $resfile"
-
-    # for nc in 1 2 3 $(seq 4 4 4); do
-      for nc in 2 4; do
-        for f in $files; do
+    for nc in 1 2 3 $(seq 4 4 64); do
+      for f in $files; do
         # params: file threads iterations path_length top_k num_case method
         size=$(echo $f | sed -e 's/_/\n/g' | egrep -m1 '^[0-9]+$')
         echo "STARTING: $f" >> "$folder/$resfile"
