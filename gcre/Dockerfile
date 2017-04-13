@@ -2,13 +2,16 @@ FROM dbichko/gcre:rcpp-clang
 
 LABEL description "benchmark template for geneticsCRE"
 
-ARG arch=native
+VOLUME /results
 
-COPY flags.${arch} /tmp/flags
-RUN cat /tmp/flags >> /home/docker/.R/Makevars
-
-RUN mkdir -p install && mv *.out install
+COPY flags.* .R/
+RUN mkdir -p logs && mv *.out logs/
+RUN cp .R/Makevars .R/Makevars.base
 
 RUN git clone https://github.com/dbichko/gcre-ci.git
 
-CMD ["bash"]
+ENV GCRE_ARCH native
+ENV GCRE_BRANCH master-bench
+
+# ENTRYPOINT ["gcre-ci/run_benchmark"]
+CMD ["gcre-ci/run_benchmark"]

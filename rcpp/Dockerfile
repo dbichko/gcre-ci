@@ -2,6 +2,7 @@ FROM dbichko/r-base
 
 LABEL description "rcpp environment; source packages are built with the chosen compiler (default: clang)"
 
+# only default for now
 ARG compiler=clang
 
 USER root
@@ -9,7 +10,7 @@ USER root
 # some R packages ignore CC and hard-code gcc
 RUN apt-get update -y \
  && apt-get install -y --no-install-suggests --no-install-recommends \
-    clang libtool \
+    clang libomp-dev libtool \
  && ln -s /usr/bin/clang++ /usr/bin/g++ \
  && rm -rf /var/lib/apt/lists/*
 
