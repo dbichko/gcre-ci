@@ -8,6 +8,7 @@ branch=${2:-master-bench}
 arch=${3:-native}
 
 git --git-dir gcre-ci/.git pull
+chmod a+rx gcre-ci/run_*
 
 folder="/results/$(date +%F_%H%M%S)_$BASHPID_${branch}_${arch}"
 mkdir -p $folder

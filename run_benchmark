@@ -1,6 +1,8 @@
 #!/bin/env bash
 set -e
 
+# TODO separate install/setup and running the benchmarks
+
 procs=$(grep -c processor /proc/cpuinfo)
 
 input=${1:-sim}
@@ -8,6 +10,7 @@ branch=${2:-master-bench}
 arch=${3:-native}
 
 git --git-dir gcre-ci/.git pull
+chmod a+rx gcre-ci/run_*
 
 folder="/results/$(date +%F_%H%M%S)_$BASHPID_${branch}_${arch}"
 mkdir -p $folder
