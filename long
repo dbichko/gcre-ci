@@ -13,7 +13,7 @@ files=$(ls gcre-ci/data/sim/*_1000_*_4.txt.gz)
 
 for m in 1 2; do
   for perm in 100 1000; do
-    for nc in 1 2 3 $(seq 4 4 48); do
+    for nc in $(seq 8 8 48); do
       for f in $files; do
         # params: file threads iterations path_length top_k num_case method
         fn=$(basename $f)
