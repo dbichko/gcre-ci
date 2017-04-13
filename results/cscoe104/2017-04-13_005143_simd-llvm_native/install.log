@@ -1,0 +1,68 @@
+Downloading GitHub repo carltonyfakhry/geneticsCRE@simd-llvm
+from URL https://api.github.com/repos/carltonyfakhry/geneticsCRE/zipball/simd-llvm
+Installing geneticsCRE
+'/usr/lib/R/bin/R' --no-site-file --no-environ --no-save --no-restore --quiet  \
+  CMD INSTALL  \
+  '/tmp/Rtmp1439JW/devtools197d687ae0/carltonyfakhry-geneticsCRE-8b9664f'  \
+  --library='/usr/local/lib/R/site-library' --install-tests 
+
+WARNING: omitting pointless dependence on 'R' without a version requirement
+* installing *source* package ‘geneticsCRE’ ...
+** libs
+clang++ -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/site-library/Rcpp/include"  -std=c++11 -mpopcnt -mno-avx512f -fpic  -O3 -march=native -Rpass=loop-vectorize -c RcppExports.cpp -o RcppExports.o
+clang++ -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/site-library/Rcpp/include"  -std=c++11 -mpopcnt -mno-avx512f -fpic  -O3 -march=native -Rpass=loop-vectorize -c join_base.cpp -o join_base.o
+clang++ -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/site-library/Rcpp/include"  -std=c++11 -mpopcnt -mno-avx512f -fpic  -O3 -march=native -Rpass=loop-vectorize -c wrapper.cpp -o wrapper.o
+join_base.cpp:166:5: remark: vectorized loop (vectorization width: 4, interleaved count: 2) [-Rpass=loop-vectorize]
+    for(int k = 0; k < width_ul; k++) {
+    ^
+join_base.cpp:179:7: remark: vectorized loop (vectorization width: 4, interleaved count: 4) [-Rpass=loop-vectorize]
+      for(int k = 0; k < width_ul; k++) 
+      ^
+In file included from join_base.cpp:2:
+./gcre.h:111:20: remark: vectorized loop (vectorization width: 4, interleaved count: 4) [-Rpass=loop-vectorize]
+      total += uid.count;
+                   ^
+join_base.cpp:229:3: remark: vectorized loop (vectorization width: 4, interleaved count: 4) [-Rpass=loop-vectorize]
+  for(int k = 0; k < iters_requested; k++)
+  ^
+In file included from join_base.cpp:375:
+./impl_cpu.cxx:46:7: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+      for(int r = 0; r < iters; r++)
+      ^
+./impl_cpu.cxx:134:62: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+          perm_ctrl_pos[r] += __builtin_popcountl(true_neg & p_mask[r]);
+                                                             ^
+./impl_cpu.cxx:126:9: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+        for(int r = 0; r < iters; r++) {
+        ^
+In file included from wrapper.cpp:6:
+./gcre.h:111:20: remark: vectorized loop (vectorization width: 4, interleaved count: 4) [-Rpass=loop-vectorize]
+      total += uid.count;
+                   ^
+./gcre.h:111:20: remark: vectorized loop (vectorization width: 4, interleaved count: 4) [-Rpass=loop-vectorize]
+./gcre.h:111:20: remark: vectorized loop (vectorization width: 4, interleaved count: 4) [-Rpass=loop-vectorize]
+./gcre.h:111:20: remark: vectorized loop (vectorization width: 4, interleaved count: 4) [-Rpass=loop-vectorize]
+./gcre.h:111:20: remark: vectorized loop (vectorization width: 4, interleaved count: 4) [-Rpass=loop-vectorize]
+./gcre.h:167:5: remark: vectorized loop (vectorization width: 4, interleaved count: 4) [-Rpass=loop-vectorize]
+    for(int k = 0; k < size * vlen; k++)
+    ^
+wrapper.cpp:106:3: remark: vectorized loop (vectorization width: 4, interleaved count: 4) [-Rpass=loop-vectorize]
+  for(int k = 0; k < res.permuted_scores.size(); k++)
+  ^
+In file included from wrapper.cpp:4:
+In file included from /usr/lib/R/site-library/Rcpp/include/Rcpp.h:27:
+In file included from /usr/lib/R/site-library/Rcpp/include/RcppCommon.h:62:
+In file included from /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0/numeric:62:
+/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0/bits/stl_numeric.h:154:31: remark: vectorized loop (vectorization width: 4, interleaved count: 4) [-Rpass=loop-vectorize]
+        __init = __binary_op(__init, *__first);
+                                     ^
+clang++ -shared -L/usr/lib/R/lib -Wl -O3 -o geneticsCRE.so RcppExports.o join_base.o wrapper.o -L/usr/lib/R/lib -lR
+installing to /usr/local/lib/R/site-library/geneticsCRE/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (geneticsCRE)
