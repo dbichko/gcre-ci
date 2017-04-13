@@ -1,0 +1,1380 @@
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 1 100 3 24 500 1"
+	User time (seconds): 79.76
+	System time (seconds): 2.58
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:22.44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3125492
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1728247
+	Voluntary context switches: 16
+	Involuntary context switches: 203
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 2 100 3 24 500 1"
+	User time (seconds): 88.02
+	System time (seconds): 2.66
+	Percent of CPU this job got: 160%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:56.36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3125608
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1727802
+	Voluntary context switches: 195
+	Involuntary context switches: 218
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 56
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 3 100 3 24 500 1"
+	User time (seconds): 95.34
+	System time (seconds): 2.67
+	Percent of CPU this job got: 207%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:47.29
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3125284
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1728284
+	Voluntary context switches: 160
+	Involuntary context switches: 231
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 4 100 3 24 500 1"
+	User time (seconds): 98.14
+	System time (seconds): 2.91
+	Percent of CPU this job got: 242%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.73
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3125432
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1726834
+	Voluntary context switches: 138
+	Involuntary context switches: 235
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 8 100 3 24 500 1"
+	User time (seconds): 146.52
+	System time (seconds): 3.14
+	Percent of CPU this job got: 396%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:37.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3125680
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1728178
+	Voluntary context switches: 150
+	Involuntary context switches: 324
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 56
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 12 100 3 24 500 1"
+	User time (seconds): 147.64
+	System time (seconds): 3.58
+	Percent of CPU this job got: 464%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:32.54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3125476
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1729089
+	Voluntary context switches: 139
+	Involuntary context switches: 352
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 16 100 3 24 500 1"
+	User time (seconds): 238.39
+	System time (seconds): 4.05
+	Percent of CPU this job got: 679%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3125756
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1728303
+	Voluntary context switches: 203
+	Involuntary context switches: 510
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 56
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 20 100 3 24 500 1"
+	User time (seconds): 253.28
+	System time (seconds): 4.55
+	Percent of CPU this job got: 761%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:33.84
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3125428
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1728333
+	Voluntary context switches: 238
+	Involuntary context switches: 551
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 24 100 3 24 500 1"
+	User time (seconds): 347.26
+	System time (seconds): 6.19
+	Percent of CPU this job got: 971%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:36.36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3125548
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1728602
+	Voluntary context switches: 239
+	Involuntary context switches: 790
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 28 100 3 24 500 1"
+	User time (seconds): 384.66
+	System time (seconds): 6.44
+	Percent of CPU this job got: 1112%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3125628
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1728446
+	Voluntary context switches: 280
+	Involuntary context switches: 2331
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 32 100 3 24 500 1"
+	User time (seconds): 422.64
+	System time (seconds): 7.96
+	Percent of CPU this job got: 1240%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:34.72
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3125680
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1728493
+	Voluntary context switches: 297
+	Involuntary context switches: 3974
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 36 100 3 24 500 1"
+	User time (seconds): 400.12
+	System time (seconds): 9.93
+	Percent of CPU this job got: 1251%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:32.77
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3125756
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1728578
+	Voluntary context switches: 331
+	Involuntary context switches: 3699
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 40
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 40 100 3 24 500 1"
+	User time (seconds): 467.03
+	System time (seconds): 10.02
+	Percent of CPU this job got: 1425%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:33.47
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3125880
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1728602
+	Voluntary context switches: 354
+	Involuntary context switches: 3735
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 44 100 3 24 500 1"
+	User time (seconds): 404.68
+	System time (seconds): 11.33
+	Percent of CPU this job got: 1349%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:30.82
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3125864
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1728689
+	Voluntary context switches: 360
+	Involuntary context switches: 7306
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 48 100 3 24 500 1"
+	User time (seconds): 616.82
+	System time (seconds): 13.70
+	Percent of CPU this job got: 1800%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3125932
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1728747
+	Voluntary context switches: 418
+	Involuntary context switches: 196780
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 1 1000 3 24 500 1"
+	User time (seconds): 586.79
+	System time (seconds): 2.72
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:50.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3012748
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1840062
+	Voluntary context switches: 17
+	Involuntary context switches: 1092
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 2 1000 3 24 500 1"
+	User time (seconds): 595.90
+	System time (seconds): 2.97
+	Percent of CPU this job got: 190%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:13.92
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3012612
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1839704
+	Voluntary context switches: 1450
+	Involuntary context switches: 1118
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 112
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 3 1000 3 24 500 1"
+	User time (seconds): 612.66
+	System time (seconds): 3.26
+	Percent of CPU this job got: 274%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:44.35
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3012644
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1840100
+	Voluntary context switches: 1008
+	Involuntary context switches: 1150
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 88
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 4 1000 3 24 500 1"
+	User time (seconds): 644.00
+	System time (seconds): 3.27
+	Percent of CPU this job got: 351%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:03.89
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3012424
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1837918
+	Voluntary context switches: 816
+	Involuntary context switches: 1198
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 80
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 8 1000 3 24 500 1"
+	User time (seconds): 708.82
+	System time (seconds): 4.39
+	Percent of CPU this job got: 623%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:54.43
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3012528
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1840189
+	Voluntary context switches: 495
+	Involuntary context switches: 1309
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 12 1000 3 24 500 1"
+	User time (seconds): 776.17
+	System time (seconds): 5.47
+	Percent of CPU this job got: 855%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:31.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3012440
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1839999
+	Voluntary context switches: 422
+	Involuntary context switches: 1585
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 16 1000 3 24 500 1"
+	User time (seconds): 831.59
+	System time (seconds): 6.59
+	Percent of CPU this job got: 1051%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:19.70
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3012304
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1840297
+	Voluntary context switches: 382
+	Involuntary context switches: 1695
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 20 1000 3 24 500 1"
+	User time (seconds): 951.53
+	System time (seconds): 8.67
+	Percent of CPU this job got: 1273%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:15.40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3012724
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1840359
+	Voluntary context switches: 381
+	Involuntary context switches: 1924
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 56
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 24 1000 3 24 500 1"
+	User time (seconds): 1020.07
+	System time (seconds): 10.93
+	Percent of CPU this job got: 1467%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:10.28
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3012640
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1840417
+	Voluntary context switches: 400
+	Involuntary context switches: 2020
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 56
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 28 1000 3 24 500 1"
+	User time (seconds): 1122.31
+	System time (seconds): 14.28
+	Percent of CPU this job got: 1662%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:08.35
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3012572
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1840471
+	Voluntary context switches: 422
+	Involuntary context switches: 8591
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 56
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 32 1000 3 24 500 1"
+	User time (seconds): 1195.05
+	System time (seconds): 17.35
+	Percent of CPU this job got: 1813%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:06.83
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3012760
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1840524
+	Voluntary context switches: 434
+	Involuntary context switches: 12731
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 56
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 36 1000 3 24 500 1"
+	User time (seconds): 1331.63
+	System time (seconds): 21.08
+	Percent of CPU this job got: 2047%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:06.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3012752
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1840619
+	Voluntary context switches: 443
+	Involuntary context switches: 12418
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 40 1000 3 24 500 1"
+	User time (seconds): 1435.33
+	System time (seconds): 24.73
+	Percent of CPU this job got: 2228%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:05.52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3012824
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1840672
+	Voluntary context switches: 486
+	Involuntary context switches: 10802
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 56
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 44 1000 3 24 500 1"
+	User time (seconds): 1582.20
+	System time (seconds): 29.14
+	Percent of CPU this job got: 2459%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:05.51
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3012536
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1840700
+	Voluntary context switches: 507
+	Involuntary context switches: 12799
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 56
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 48 1000 3 24 500 1"
+	User time (seconds): 1746.85
+	System time (seconds): 35.02
+	Percent of CPU this job got: 2705%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:05.86
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3013108
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1840745
+	Voluntary context switches: 535
+	Involuntary context switches: 61294
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 1 100 3 24 500 2"
+	User time (seconds): 92.64
+	System time (seconds): 3.24
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:35.99
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5243444
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2257264
+	Voluntary context switches: 16
+	Involuntary context switches: 228
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 56
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 2 100 3 24 500 2"
+	User time (seconds): 103.16
+	System time (seconds): 3.42
+	Percent of CPU this job got: 162%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:05.47
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5243360
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2257776
+	Voluntary context switches: 233
+	Involuntary context switches: 247
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 3 100 3 24 500 2"
+	User time (seconds): 111.97
+	System time (seconds): 3.58
+	Percent of CPU this job got: 212%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:54.45
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5243572
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2257815
+	Voluntary context switches: 190
+	Involuntary context switches: 264
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 56
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 4 100 3 24 500 2"
+	User time (seconds): 113.86
+	System time (seconds): 3.68
+	Percent of CPU this job got: 247%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:47.44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5243228
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2256332
+	Voluntary context switches: 165
+	Involuntary context switches: 263
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 8 100 3 24 500 2"
+	User time (seconds): 157.22
+	System time (seconds): 4.06
+	Percent of CPU this job got: 393%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5243464
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2257700
+	Voluntary context switches: 160
+	Involuntary context switches: 340
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 56
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 12 100 3 24 500 2"
+	User time (seconds): 201.42
+	System time (seconds): 4.50
+	Percent of CPU this job got: 529%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:38.88
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5243640
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2258579
+	Voluntary context switches: 174
+	Involuntary context switches: 476
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 16 100 3 24 500 2"
+	User time (seconds): 219.72
+	System time (seconds): 5.30
+	Percent of CPU this job got: 621%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:36.18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5243780
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2257805
+	Voluntary context switches: 184
+	Involuntary context switches: 482
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 40
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 20 100 3 24 500 2"
+	User time (seconds): 278.02
+	System time (seconds): 6.07
+	Percent of CPU this job got: 761%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:37.29
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5243496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2257887
+	Voluntary context switches: 232
+	Involuntary context switches: 598
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 24 100 3 24 500 2"
+	User time (seconds): 304.60
+	System time (seconds): 6.57
+	Percent of CPU this job got: 865%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5243664
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2258123
+	Voluntary context switches: 241
+	Involuntary context switches: 927
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 28 100 3 24 500 2"
+	User time (seconds): 351.86
+	System time (seconds): 7.49
+	Percent of CPU this job got: 1002%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.83
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5243700
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2257982
+	Voluntary context switches: 259
+	Involuntary context switches: 2092
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 32 100 3 24 500 2"
+	User time (seconds): 341.38
+	System time (seconds): 8.68
+	Percent of CPU this job got: 1020%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:34.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5243724
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2258050
+	Voluntary context switches: 317
+	Involuntary context switches: 3217
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 36 100 3 24 500 2"
+	User time (seconds): 460.02
+	System time (seconds): 9.99
+	Percent of CPU this job got: 1282%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:36.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5243740
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2258102
+	Voluntary context switches: 332
+	Involuntary context switches: 4172
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 40 100 3 24 500 2"
+	User time (seconds): 482.65
+	System time (seconds): 12.46
+	Percent of CPU this job got: 1389%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5243740
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2258124
+	Voluntary context switches: 356
+	Involuntary context switches: 3871
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 40
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 44 100 3 24 500 2"
+	User time (seconds): 537.59
+	System time (seconds): 12.45
+	Percent of CPU this job got: 1539%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.74
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5243548
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2258256
+	Voluntary context switches: 392
+	Involuntary context switches: 8700
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 48 100 3 24 500 2"
+	User time (seconds): 583.49
+	System time (seconds): 15.04
+	Percent of CPU this job got: 1661%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:36.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5244072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2258280
+	Voluntary context switches: 413
+	Involuntary context switches: 3886
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 1 1000 3 24 500 2"
+	User time (seconds): 680.55
+	System time (seconds): 3.53
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:24.77
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5130444
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2369182
+	Voluntary context switches: 15
+	Involuntary context switches: 1261
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 168
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 2 1000 3 24 500 2"
+	User time (seconds): 691.27
+	System time (seconds): 4.13
+	Percent of CPU this job got: 191%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:03.73
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5130728
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2369604
+	Voluntary context switches: 1688
+	Involuntary context switches: 1253
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 112
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 3 1000 3 24 500 2"
+	User time (seconds): 772.56
+	System time (seconds): 5.17
+	Percent of CPU this job got: 277%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:39.88
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5130484
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2369606
+	Voluntary context switches: 1275
+	Involuntary context switches: 1710
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 104
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 4 1000 3 24 500 2"
+	User time (seconds): 771.25
+	System time (seconds): 4.49
+	Percent of CPU this job got: 356%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:37.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5130488
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2367448
+	Voluntary context switches: 969
+	Involuntary context switches: 1423
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 96
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 8 1000 3 24 500 2"
+	User time (seconds): 960.52
+	System time (seconds): 7.45
+	Percent of CPU this job got: 653%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:28.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5130544
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2369714
+	Voluntary context switches: 663
+	Involuntary context switches: 1884
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 12 1000 3 24 500 2"
+	User time (seconds): 914.96
+	System time (seconds): 6.21
+	Percent of CPU this job got: 872%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:45.55
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5130656
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2369489
+	Voluntary context switches: 479
+	Involuntary context switches: 1942
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 16 1000 3 24 500 2"
+	User time (seconds): 1066.49
+	System time (seconds): 10.21
+	Percent of CPU this job got: 1117%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:36.37
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5130592
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2369841
+	Voluntary context switches: 458
+	Involuntary context switches: 2209
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 56
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 20 1000 3 24 500 2"
+	User time (seconds): 1130.91
+	System time (seconds): 11.92
+	Percent of CPU this job got: 1311%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:27.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5130624
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2369879
+	Voluntary context switches: 445
+	Involuntary context switches: 2269
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 56
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 24 1000 3 24 500 2"
+	User time (seconds): 1254.50
+	System time (seconds): 14.40
+	Percent of CPU this job got: 1525%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:23.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5130500
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2369945
+	Voluntary context switches: 469
+	Involuntary context switches: 2516
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 28 1000 3 24 500 2"
+	User time (seconds): 1362.77
+	System time (seconds): 17.21
+	Percent of CPU this job got: 1731%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:19.71
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5130640
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2370014
+	Voluntary context switches: 450
+	Involuntary context switches: 7816
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 56
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 32 1000 3 24 500 2"
+	User time (seconds): 1418.90
+	System time (seconds): 18.91
+	Percent of CPU this job got: 1909%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:15.29
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5130672
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2370077
+	Voluntary context switches: 460
+	Involuntary context switches: 13299
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 56
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 36 1000 3 24 500 2"
+	User time (seconds): 1627.07
+	System time (seconds): 23.24
+	Percent of CPU this job got: 2147%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:16.83
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5130836
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2370132
+	Voluntary context switches: 496
+	Involuntary context switches: 14816
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 56
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 40 1000 3 24 500 2"
+	User time (seconds): 1706.34
+	System time (seconds): 26.81
+	Percent of CPU this job got: 2331%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:14.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5130868
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2370194
+	Voluntary context switches: 509
+	Involuntary context switches: 13645
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 44 1000 3 24 500 2"
+	User time (seconds): 1774.99
+	System time (seconds): 31.32
+	Percent of CPU this job got: 2508%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:12.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5130872
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2370307
+	Voluntary context switches: 537
+	Involuntary context switches: 26352
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 56
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/sim/SimData_Missense_500_LDLR_0.txt.gz 48 1000 3 24 500 2"
+	User time (seconds): 1933.17
+	System time (seconds): 35.38
+	Percent of CPU this job got: 2727%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:12.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5130608
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2370369
+	Voluntary context switches: 547
+	Involuntary context switches: 11479
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 56
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

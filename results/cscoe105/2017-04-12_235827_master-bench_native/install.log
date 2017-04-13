@@ -1,0 +1,51 @@
+Downloading GitHub repo carltonyfakhry/geneticsCRE@master-bench
+from URL https://api.github.com/repos/carltonyfakhry/geneticsCRE/zipball/master-bench
+Installing geneticsCRE
+'/usr/lib/R/bin/R' --no-site-file --no-environ --no-save --no-restore --quiet  \
+  CMD INSTALL  \
+  '/tmp/RtmpnXwnOo/devtools172e37474b/carltonyfakhry-geneticsCRE-27fc013'  \
+  --library='/usr/local/lib/R/site-library' --install-tests 
+
+WARNING: omitting pointless dependence on 'R' without a version requirement
+* installing *source* package ‘geneticsCRE’ ...
+** libs
+clang++ -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/site-library/Rcpp/include"  -std=c++11 -fopenmp -mpopcnt -fpic  -O3 -march=native -Rpass=loop-vectorize -c JoinMethods.cpp -o JoinMethods.o
+clang++ -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/site-library/Rcpp/include"  -std=c++11 -fopenmp -mpopcnt -fpic  -O3 -march=native -Rpass=loop-vectorize -c JoinMethods2.cpp -o JoinMethods2.o
+clang++ -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/site-library/Rcpp/include"  -std=c++11 -fopenmp -mpopcnt -fpic  -O3 -march=native -Rpass=loop-vectorize -c RcppExports.cpp -o RcppExports.o
+clang++ -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/site-library/Rcpp/include"  -std=c++11 -fopenmp -mpopcnt -fpic  -O3 -march=native -Rpass=loop-vectorize -c Utils.cpp -o Utils.o
+JoinMethods.cpp:529:7: remark: vectorized loop (vectorization width: 4, interleaved count: 4) [-Rpass=loop-vectorize]
+      for(int k = 0; k < iterations; k++)
+      ^
+In file included from JoinMethods.cpp:1:
+In file included from ./Utils.h:1:
+In file included from /usr/lib/R/site-library/Rcpp/include/Rcpp.h:27:
+In file included from /usr/lib/R/site-library/Rcpp/include/RcppCommon.h:59:
+In file included from /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0/vector:64:
+/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0/bits/stl_vector.h:781:41: remark: vectorized loop (vectorization width: 4, interleaved count: 4) [-Rpass=loop-vectorize]
+      { return *(this->_M_impl._M_start + __n); }
+                                        ^
+JoinMethods.cpp:211:37: remark: vectorized loop (vectorization width: 4, interleaved count: 2) [-Rpass=loop-vectorize]
+      uint64_t temp_pos = path_pos1[k] | path_pos2[k];
+                                    ^
+JoinMethods.cpp:211:37: remark: vectorized loop (vectorization width: 4, interleaved count: 1) [-Rpass=loop-vectorize]
+JoinMethods.cpp:642:5: remark: vectorized loop (vectorization width: 4, interleaved count: 4) [-Rpass=loop-vectorize]
+    for(int j = 0; j < vlen + vlen2; j++, k++)
+    ^
+In file included from JoinMethods.cpp:1:
+In file included from ./Utils.h:1:
+In file included from /usr/lib/R/site-library/Rcpp/include/Rcpp.h:27:
+In file included from /usr/lib/R/site-library/Rcpp/include/RcppCommon.h:62:
+In file included from /usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0/numeric:62:
+/usr/bin/../lib/gcc/x86_64-linux-gnu/6.3.0/../../../../include/c++/6.3.0/bits/stl_numeric.h:154:31: remark: vectorized loop (vectorization width: 4, interleaved count: 4) [-Rpass=loop-vectorize]
+        __init = __binary_op(__init, *__first);
+                                     ^
+clang++ -shared -L/usr/lib/R/lib -Wl -O3 -o geneticsCRE.so JoinMethods.o JoinMethods2.o RcppExports.o Utils.o -lomp -L/usr/lib/R/lib -lR
+installing to /usr/local/lib/R/site-library/geneticsCRE/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (geneticsCRE)
