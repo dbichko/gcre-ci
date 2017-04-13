@@ -7,12 +7,10 @@ bench=${1:-full}
 branch=${2:-master-bench}
 arch=${3:-native}
 
-git --git-dir gcre-ci/.git pull
-ls -al
-ls -al gcre-ci
+git -C gcre-ci pull
 chmod a+rx gcre-ci/run_* gcre-ci/$bench
 
-echo "running benchmark:"
+echo "running benchmark: $bench"
 echo "-----------------"
 cat gcre-ci/$bench
 echo "-----------------"
