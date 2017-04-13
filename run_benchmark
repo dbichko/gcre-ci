@@ -10,6 +10,11 @@ arch=${3:-native}
 git --git-dir gcre-ci/.git pull
 chmod a+rx gcre-ci/run_* gcre-ci/$bench
 
+echo "running benchmark:"
+echo "-----------------"
+cat gcre-ci/$bench
+echo "-----------------"
+
 folder="/results/$(date +%F_%H%M%S)_$BASHPID_${branch}_${arch}"
 mkdir -p $folder
 echo "result folder: $folder"
