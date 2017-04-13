@@ -8,6 +8,8 @@ branch=${2:-master-bench}
 arch=${3:-native}
 
 git --git-dir gcre-ci/.git pull
+ls -al
+ls -al gcre-ci
 chmod a+rx gcre-ci/run_* gcre-ci/$bench
 
 echo "running benchmark:"
