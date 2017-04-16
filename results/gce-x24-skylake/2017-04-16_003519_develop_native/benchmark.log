@@ -1,0 +1,46 @@
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/huge/SimData_LoF_5000_LDLR-CDK19-APOE-LPL-LRP1_2.txt.gz 24 100 3 24 5000 1"
+	User time (seconds): 329.73
+	System time (seconds): 17.45
+	Percent of CPU this job got: 257%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:14.73
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 21541144
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 7875127
+	Voluntary context switches: 221
+	Involuntary context switches: 450
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/huge/SimData_LoF_5000_LDLR-CDK19-APOE-LPL-LRP1_2.txt.gz 24 1000 3 24 5000 1"
+	User time (seconds): 2304.35
+	System time (seconds): 13.76
+	Percent of CPU this job got: 944%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:05.43
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 21005732
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 7936734
+	Voluntary context switches: 248
+	Involuntary context switches: 5150
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 40
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,46 @@
+Downloading GitHub repo carltonyfakhry/geneticsCRE@develop
+from URL https://api.github.com/repos/carltonyfakhry/geneticsCRE/zipball/develop
+Installing geneticsCRE
+'/usr/lib/R/bin/R' --no-site-file --no-environ --no-save --no-restore --quiet  \
+  CMD INSTALL  \
+  '/tmp/RtmpsiAZ5G/devtools1b75379101/carltonyfakhry-geneticsCRE-0e7b6b8'  \
+  --library='/usr/local/lib/R/site-library' --install-tests 
+
+WARNING: omitting pointless dependence on 'R' without a version requirement
+* installing *source* package ‘geneticsCRE’ ...
+** libs
+clang++ -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/site-library/Rcpp/include"  -std=c++11 -mpopcnt -fpic  -O3 -march=native -mno-sse4 -Rpass=loop-vectorize -c RcppExports.cpp -o RcppExports.o
+clang++ -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/site-library/Rcpp/include"  -std=c++11 -mpopcnt -fpic  -O3 -march=native -mno-sse4 -Rpass=loop-vectorize -c join_base.cpp -o join_base.o
+clang++ -I/usr/share/R/include -DNDEBUG   -I"/usr/lib/R/site-library/Rcpp/include"  -std=c++11 -mpopcnt -fpic  -O3 -march=native -mno-sse4 -Rpass=loop-vectorize -c wrapper.cpp -o wrapper.o
+join_base.cpp:166:5: remark: vectorized loop (vectorization width: 2, interleaved count: 2) [-Rpass=loop-vectorize]
+    for(int k = 0; k < width_ul; k++) {
+    ^
+join_base.cpp:179:7: remark: vectorized loop (vectorization width: 2, interleaved count: 2) [-Rpass=loop-vectorize]
+      for(int k = 0; k < width_ul; k++) 
+      ^
+join_base.cpp:229:3: remark: vectorized loop (vectorization width: 2, interleaved count: 2) [-Rpass=loop-vectorize]
+  for(int k = 0; k < iters_requested; k++)
+  ^
+In file included from join_base.cpp:375:
+./impl_cpu.cxx:46:7: remark: vectorized loop (vectorization width: 2, interleaved count: 2) [-Rpass=loop-vectorize]
+      for(int r = 0; r < iters; r++)
+      ^
+./impl_cpu.cxx:134:62: remark: vectorized loop (vectorization width: 2, interleaved count: 2) [-Rpass=loop-vectorize]
+          perm_ctrl_pos[r] += __builtin_popcountl(true_neg & p_mask[r]);
+                                                             ^
+./impl_cpu.cxx:126:9: remark: vectorized loop (vectorization width: 2, interleaved count: 2) [-Rpass=loop-vectorize]
+        for(int r = 0; r < iters; r++) {
+        ^
+wrapper.cpp:106:3: remark: vectorized loop (vectorization width: 2, interleaved count: 2) [-Rpass=loop-vectorize]
+  for(int k = 0; k < res.permuted_scores.size(); k++)
+  ^
+clang++ -shared -L/usr/lib/R/lib -Wl -O3 -o geneticsCRE.so RcppExports.o join_base.o wrapper.o -L/usr/lib/R/lib -lR
+installing to /usr/local/lib/R/site-library/geneticsCRE/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (geneticsCRE)
