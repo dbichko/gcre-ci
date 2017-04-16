@@ -7,7 +7,7 @@ folder=$1
 branch=$2
 arch=$3
 
-l=5
+l=4
 
 files=$(ls gcre-ci/data/sim/*_5.txt.gz)
 
