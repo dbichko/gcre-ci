@@ -10,7 +10,7 @@ l=5
 files=$(ls gcre-ci/data/huge/*_2.txt.gz)
 
 for perm in 100 1000; do
-  for m in 1 2; do
+  for m in 2; do
     for nc in 64; do
       for f in $files; do
         # params: file threads iterations path_length top_k num_case method
