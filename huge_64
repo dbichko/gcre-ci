@@ -5,13 +5,13 @@ folder=$1
 branch=$2
 arch=$3
 
-l=3
+l=4
 
 files=$(ls gcre-ci/data/huge/*_2.txt.gz)
 
 for m in 1; do
-  for perm in 100 1000; do
-    for nc in 24; do
+  for perm in 1000; do
+    for nc in 64 96 128; do
       for f in $files; do
         # params: file threads iterations path_length top_k num_case method
         fn=$(basename $f)
