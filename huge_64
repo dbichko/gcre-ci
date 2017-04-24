@@ -9,13 +9,13 @@ l=5
 
 files=$(ls gcre-ci/data/huge/*_2.txt.gz)
 
-for perm in 100 1000; do
-  for m in 2; do
+for m in 1; do
+  for perm in 0 100 1000; do
     for nc in 64; do
       for f in $files; do
         # params: file threads iterations path_length top_k num_case method
         fn=$(basename $f)
-        resfile="${branch}_${arch}_method${m}_l${l}_${perm}__${fn/.txt.gz/}.run"
+        resfile="huge_${branch}_${arch}_m${m}_l${l}_${perm}__${fn/.txt.gz/}.run"
         size=$(echo $f | sed -e 's/_/\n/g' | egrep -m1 '^[0-9]+$')
         echo "STARTING: $f" >> "$folder/$resfile"
         /usr/bin/time -v Rscript gcre-ci/bench.r "$f" "$nc" "$perm" "$l" 24 "$size" "$m" 2>&1 >> "$folder/$resfile"
