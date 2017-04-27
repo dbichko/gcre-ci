@@ -1,4 +1,4 @@
-FROM dbichko/gcre:rcpp-clang
+FROM gcre/rcpp
 
 LABEL description "benchmark template for geneticsCRE"
 
@@ -10,8 +10,8 @@ RUN cp .R/Makevars .R/Makevars.base
 
 RUN git clone https://github.com/dbichko/gcre-ci.git
 
-ENV GCRE_ARCH native
-ENV GCRE_BRANCH master-bench
+ENV branch master
+ENV arch native
 
 # ENTRYPOINT ["gcre-ci/run_benchmark"]
 CMD ["gcre-ci/run_benchmark", "full"]

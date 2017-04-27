@@ -1,4 +1,4 @@
-FROM dbichko/base
+FROM gcre/base
 
 LABEL description "R installation, including common dependencies that are available as pre-built binaries"
 
