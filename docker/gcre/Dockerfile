@@ -2,8 +2,11 @@ FROM gcre/rcpp
 
 LABEL description "build and install geneticsCRE"
 
-ENV branch master
-ENV arch native
+ARG branch
+ARG arch
+
+ENV branch ${branch:-master}
+ENV arch ${arch:-native}
 
 VOLUME /work
 
