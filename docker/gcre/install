@@ -1,0 +1,7 @@
+#!/bin/env bash
+set -e
+
+echo "installing branch: $branch ($arch)"
+cat .R/Makevars.base .R/flags.${arch} > .R/Makevars
+
+Rscript -e "devtools::install_github('carltonyfakhry/geneticsCRE@${branch}', force=TRUE)"

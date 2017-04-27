@@ -1,17 +1,13 @@
 FROM gcre/rcpp
 
-LABEL description "benchmark template for geneticsCRE"
-
-VOLUME /results
-
-COPY flags.* .R/
-RUN mkdir -p logs && mv *.out logs/
-RUN cp .R/Makevars .R/Makevars.base
-
-RUN git clone https://github.com/dbichko/gcre-ci.git
+LABEL description "build and install geneticsCRE"
 
 ENV branch master
 ENV arch native
 
-# ENTRYPOINT ["gcre-ci/run_benchmark"]
-CMD ["gcre-ci/run_benchmark", "full"]
+VOLUME /work
+
+COPY bashrc .bashrc
+COPY install .
+
+CMD bootstrap=true bash

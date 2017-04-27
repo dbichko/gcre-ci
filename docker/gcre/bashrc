@@ -1,0 +1,1 @@
+[ -n "$bootstrap" ] && ( Rscript -e 'if(!require(geneticsCRE)){stop()}' 2> /dev/null || $HOME/install )

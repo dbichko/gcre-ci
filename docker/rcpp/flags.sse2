@@ -1,5 +1,5 @@
 
-CXX1XFLAGS=-O3 -march=native -mno-sse4 -Rpass=loop-vectorize
+CXX1XFLAGS=-O3 -march=native -mno-sse4
 CXXFLAGS=$(CXX1XFLAGS)
 LDFLAGS=-Wl -O3
 LDLIBS=-pthread
