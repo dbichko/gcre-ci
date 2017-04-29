@@ -1,0 +1,69 @@
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/huge/SimData_LoF_5000_LDLR-CDK19-APOE-LPL-LRP1_2.txt.gz 48 0 5 24 5000 1"
+	User time (seconds): 130349.62
+	System time (seconds): 14.04
+	Percent of CPU this job got: 4621%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 47:00.94
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 22277120
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8102644
+	Voluntary context switches: 421
+	Involuntary context switches: 206151
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 120
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/huge/SimData_LoF_5000_LDLR-CDK19-APOE-LPL-LRP1_2.txt.gz 48 100 5 24 5000 1"
+	User time (seconds): 1780576.47
+	System time (seconds): 14.67
+	Percent of CPU this job got: 4785%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 10:20:06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 22588552
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8122420
+	Voluntary context switches: 324
+	Involuntary context switches: 2512229
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Rscript gcre-ci/bench.r gcre-ci/data/huge/SimData_LoF_5000_LDLR-CDK19-APOE-LPL-LRP1_2.txt.gz 48 1000 5 24 5000 1"
+	User time (seconds): 15278027.11
+	System time (seconds): 22.39
+	Percent of CPU this job got: 4797%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 88:27:32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 22008420
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8191317
+	Voluntary context switches: 436
+	Involuntary context switches: 21367861
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 192
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
