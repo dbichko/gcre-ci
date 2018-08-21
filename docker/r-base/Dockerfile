@@ -10,7 +10,7 @@ RUN apt-get update -y \
     libc-dev zlib1g-dev libssl-dev libcurl4-openssl-dev libxml2-dev \
     r-base-core r-cran-littler \
     r-cran-curl r-cran-openssl \
-    r-cran-rcpp r-cran-matrix r-cran-plyr r-cran-dplyr \
+    r-cran-rcpp r-cran-matrix r-cran-plyr r-cran-dplyr r-cran-igraph \
     r-cran-stringr r-cran-knitr r-cran-httr r-cran-memoise r-cran-digest r-cran-jsonlite r-cran-withr \
  && rm -rf /var/lib/apt/lists/*
 
