@@ -8,7 +8,6 @@ push: build
 
 .built: Dockerfile
 	$(DOCKER) build -t $(REPO):latest .
-	$(DOCKER) build --build-arg branch=develop -t $(REPO):develop .
 	touch .built
 
 run:

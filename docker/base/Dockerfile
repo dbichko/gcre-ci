@@ -1,14 +1,19 @@
 FROM debian:unstable-slim
 
 LABEL maintainer "dbichko@gmail.com"
-LABEL description "minimal base image with common utilities"
+LABEL description "base image for gcre"
 
 ENV DEBIAN_FRONTEND noninteractive
 
+# some R packages ignore CC and hard-code gcc
 RUN apt-get update -y && apt-get dist-upgrade -y \
  && apt-get install -y --no-install-suggests --no-install-recommends \
     apt-utils locales sudo \
+    libc-dev zlib1g-dev libssl-dev libcurl4-openssl-dev libxml2-dev \
+    ca-certificates binutils make git \
     htop less time nano file gzip bzip2 zip unzip pigz pv wget curl \
+    clang libomp-dev libtool \
+ && ln -s /usr/bin/clang++ /usr/bin/g++ \
  && rm -rf /var/lib/apt/lists/*
 
 RUN useradd -m docker -s /bin/bash \
